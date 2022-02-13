@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <header>
+      <h2 id="page-title">Título</h2>
+      <p id="paragraph">Dê uma cor para este parágrafo!</p>
+      <h4 id="subtitle">Subtítulo</h4>
+      <p id="second-paragraph">Segundo parágrafo!</p>
+    </header>
+    <script>
+      
+      const paragraph = document.getElementById("paragraph").style.color = "black";
+      document.getElementById("paragraph").innerText = "O filme acompanha a história de cinco irmãs de uma família inglesa de aristocratas rurais lidando com questões de casamento, moralidade e preconceito. Keira Knightley intepreta a protagonista Elizabeth Bennet enquanto Matthew Macfadyen interpreta o seu par romântico Sr. Darcy.";
+      
+      
+      const title = document.getElementById("page-title");
+      title.innerText = "Orgulho e Preconceito";
+      title.style.color = "purple";
+
+      const subtitle = document.getElementById("subtitle").innerText = "Filme de baseado no liro de Jane Austen";
+
+      const secondParagraph = document.getElementById("second-paragraph");
+      document.getElementById("second-paragraph").innerText = "A história mostra a maneira com que a personagem Elizabeth Bennet lida com os problemas relacionados à educação, cultura, moral e casamento na sociedade aristocrática do início do século XIX, na Inglaterra. Elizabeth é a segunda de 5 filhas de um proprietário rural na cidade fictícia de Meryton, em Hertfordshire, não muito longe de Londres.Apesar de a história se ambientar no século XIX, tem exercido fascínio mesmo nos leitores modernos, continuando no topo da lista dos livros preferidos e sob a consideração da crítica literária. O interesse atual é resultado de um grande número de adaptações e até de pretensas imitações dos temas e personagens abordados por Austen. Atualmente, acredita-se que o livro tenha cerca de 2,3 milhões de cópias ao redor do mundo"
+    
+      const header = document.getElementById('header-container');
+      header.style.backgroundColor = 'rgb(0, 176, 105)';
+
+    
+    
+    </script>
+  </body>
+</html>
+
