@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+.cabecalho {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly ;
+}
+
+.cabecalho > img {
+    width: 70px;
+    height: 70px;
+}
+
+.cabecalho > h3 {
+    color: white;
+    font-style:normal;
+	font-weight: bold;
+	font-size: 20px;
+	font-family: arial, sans-serif;
+}
+.botao{
+    color: white;
+}
+
+.p{
+    font-style:italic;
+		font-weight: bold;
+		font-size: 20px;
+		font-family:'Times New Roman', Times, serif;
+        padding: 10px;
+        margin: 10px;
+        text-align: center;
+}
+
+.section-box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    position: relative;
+}
+
+.imagens{
+    width: 600px;
+    height:400px; 
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;    
+}
+
+.imagens > div  {
+    width: 180px;
+    height: 180px;
+    background-color: rgb(231, 216, 216);
+    border: 1px solid gray;
+    text-align: center;
+    
+}
+
+/* .imagens > div:nth-child(2)  {   
+    background-color: rgb(231, 216, 216);   
+}  */
+
+/* .imagens > div > img{    
+    border-radius: 10px;
+    width: 150px;
+    height:150px;
+}  */
+
+hr {
+    background-color:gray;
+    width: 100px;
+    display: flex;  
+    align-items: center;
+    position: absolute;
+    bottom: 45px;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+}
+/* linkedin e insta */
+footer > a > img {
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+}
+/* logo trybe */
+header > div > a{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: "star";
+    justify-content:"star";
+}
+/* link das techs */
+.imagens > div > a{
+    width: 180px;
+    height: 180px;
+    background-color: rgb(231, 216, 216);
+    border: 1px solid gray;
+    text-align: center;
+    display: flex;
+   
+   
+}
+
+
